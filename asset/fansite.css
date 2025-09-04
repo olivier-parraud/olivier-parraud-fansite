@@ -73,8 +73,26 @@ hgroup p {
     font-weight: bold;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+ 
 
+.box1>p {
+padding-top: 20px;
+font-size: xx-large;
+}
 
+.box2>p {
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+.box3>p {
+    padding-top: 20px;
+    font-size:x-large
+}
 
 .section {
     background-color: blueviolet;
@@ -88,11 +106,16 @@ hgroup p {
 }
 
 .contenair-cinema {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-image: url(image/coeur\ motif.jpg);
+    
+}
+
+.contenair-cinema .box1, .box2, .box3 >h3 {
+    text-align: center;
+    
+    
 }
 
 .contenair-text {
@@ -104,6 +127,11 @@ hgroup p {
     font-size: x-large;
     
 
+}
+
+.media{
+    color: rgb(249, 252, 251);
+    font-size: xx-large;
 }
 
 .contenair-text-nav {
@@ -123,3 +151,5 @@ hgroup p {
     justify-content: flex-start;
     text-align: center;
 }
+
+
