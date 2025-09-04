@@ -85,7 +85,10 @@ img {
 }
 
 
-
+.zoom img:hover {
+width: 90%;
+cursor: pointer;
+}
 
 .box1>p {
 
