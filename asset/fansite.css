@@ -10,14 +10,20 @@ header {
     justify-content: center;
     align-items: center;
     height: 150px;
-    
+
 }
 
-
 footer {
-    background-color: rgb(131, 125, 125);
+    background-image: url(image/coeur\ motif.jpg);
     display: flex;
-    text-align: left;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+footer>h2 {
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -27,13 +33,13 @@ nav {
     padding: 10px;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 600;   
+    font-weight: 600;
 }
 
 ul {
     display: flex;
     justify-content: space-around;
-    
+
 }
 
 li {
@@ -77,21 +83,45 @@ img {
     width: 100%;
     height: auto;
 }
- 
+
+
+
 
 .box1>p {
-padding-top: 20px;
-font-size: x-large;
+
+    font-size: x-large;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border: 1rem solid;
+    border-color: rgb(0, 0, 0)
 }
 
 .box2>p {
-    padding-top: 20px;
+
     font-size: x-large;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    border: 1rem solid;
 }
 
 .box3>p {
-    padding-top: 20px;
-    font-size:x-large
+
+    font-size: x-large;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    border: 1rem solid;
 }
 
 .section {
@@ -108,38 +138,41 @@ font-size: x-large;
 .contenair-cinema {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-image: url(image/coeur\ motif.jpg);
-    
+    background-image: url(image/jaune2.jpg);
+
 }
 
-.contenair-cinema .box1, .box2, .box3 >h3 {
+.contenair-cinema .box1,
+.box2,
+.box3>h3 {
     text-align: center;
-    
-    
+
+
 }
 
 .contenair-text {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: x-large;
-    
+
 
 }
 
-.media{
-    color: rgb(249, 252, 251);
+.media {
+    color: rgb(0, 0, 0);
     font-size: xx-large;
+
 }
 
 .contenair-text-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap:200px;
-        font-size: 40px;
+    gap: 200px;
+    font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 700;
     margin-left: 20px;
@@ -151,5 +184,3 @@ font-size: x-large;
     justify-content: flex-start;
     text-align: center;
 }
-
-
