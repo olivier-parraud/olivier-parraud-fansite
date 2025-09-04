@@ -5,37 +5,35 @@
 }
 
 header {
-    background-image: url(image/bande2.jpeg);
+    background-image: url(image/coeur\ motif.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-   
+    height: 150px;
+    
 }
-
 
 
 footer {
-    background-color: rgb(214, 14, 14);
+    background-color: rgb(131, 125, 125);
     display: flex;
+    text-align: left;
 }
 
-div {
-    background-image: url(image/cinema.jpg);
 
-}
 
 nav {
     background-color: rgb(211, 203, 193);
     padding: 10px;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 600;
+    font-weight: 600;   
 }
 
 ul {
     display: flex;
     justify-content: space-around;
+    
 }
 
 li {
@@ -45,7 +43,7 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 a:hover {
@@ -59,6 +57,24 @@ h1 {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+hgroup {
+    text-align: right;
+    padding-right: 16px;
+    border-right: 10px solid #00c8d7;
+}
+
+hgroup h1 {
+    margin-bottom: 0;
+}
+
+hgroup p {
+    margin: 0;
+    font-weight: bold;
+}
+
+
+
 
 .section {
     background-color: blueviolet;
@@ -76,15 +92,17 @@ h1 {
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
+    background-image: url(image/coeur\ motif.jpg);
 }
 
 .contenair-text {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 150px;
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: x-large;
+    
 
 }
 
@@ -92,11 +110,16 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 100px;
-    font-size: 40px;
+    gap:200px;
+        font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 700;
     margin-left: 20px;
     margin-right: 20px;
+}
 
+.contenair-main {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
 }
