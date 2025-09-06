@@ -200,33 +200,38 @@
     .contenair1-wiplash {
         background-color: #e90303;
         display: grid;
-        grid-template-areas:  
-        "a a a"
-        "b b c"
-        "b b c";
-        gap:10px;
+        grid-template-areas:
+            "a a a"
+            "b b c"
+            "b b c";
+        gap: 10px;
+        
 
     }
 
     .contenair2-wiplash {
         background-color: bisque;
-
-
+        display: grid;
+        grid-template-areas:
+            "d d d"
+            "e e e"
+            "e e e";
+        gap: 10px;
     }
 
     .pack1 {
         background-color: blue;
         grid-area: a;
         font-size: xx-large;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
         text-align: center;
-        
+
     }
 
     .pack2 {
         background-color: blueviolet;
         grid-area: b;
-        
+
     }
 
     .pack3 {
@@ -236,12 +241,17 @@
 
     }
 
-    .img-wiplash {
-        height: 500px;
-        width: 400px;
-
+    .pack4 {
+        background-color: #e90303;
+        grid-area: d;
+        
     }
 
-    .chazelle {
-        height: 200px;
+    
+    
+
+    .pack5 {
+        background-color: blue;
+        grid-area: e;
+        text-align: center;
     }
