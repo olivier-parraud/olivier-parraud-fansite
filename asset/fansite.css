@@ -84,6 +84,9 @@
         height: auto;
     }
 
+ li {
+  list-style-type: square;
+}
 
     .zoom img:hover {
         width: 90%;
@@ -253,5 +256,5 @@
     .pack5 {
         background-color: blue;
         grid-area: e;
-        text-align: center;
+        
     }
