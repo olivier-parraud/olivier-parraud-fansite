@@ -84,9 +84,26 @@
         height: auto;
     }
 
- li {
-  list-style-type: square;
-}
+    li {
+        list-style-type: square;
+    }
+
+    article.pack5 ul {
+        display: block;
+        text-align: left;
+        padding-left: 2em;
+        list-style-position: inside;
+    }
+
+    article.pack5 li {
+        padding: 2px 0;
+        margin: 0, 2em 0;
+        font-size: 1em;
+    }
+
+    nav ul li {
+        list-style-type: none;
+    }
 
     .zoom img:hover {
         width: 90%;
@@ -208,7 +225,7 @@
             "b b c"
             "b b c";
         gap: 10px;
-        
+
 
     }
 
@@ -241,20 +258,42 @@
         background-color: coral;
         grid-area: c;
         text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
 
     }
 
     .pack4 {
         background-color: #e90303;
         grid-area: d;
-        
+        min-height: 450px;
+
     }
 
-    
-    
 
     .pack5 {
         background-color: blue;
         grid-area: e;
-        
+        padding-left: 30px;
+
+    }
+
+    .pack5>h2 {
+        text-align: center;
+    }
+
+
+    .titre {
+
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .sous-titre {
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
     }
