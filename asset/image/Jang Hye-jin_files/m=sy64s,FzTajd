@@ -1,0 +1,13 @@
+this._s=this._s||{};(function(_){var window=this;
+try{
+_.fis=_.w("FzTajd",[_.Cr]);
+}catch(e){_._DumpException(e)}
+try{
+_.t("FzTajd");
+var gis;gis=function(a){if(a.size()<2)a.remove();else{let b;(b=a.first())==null||b.remove();let c;(c=a.last())==null||c.remove()}};
+_.his=class extends _.ug{static Sa(){return{service:{Jf:_.zw}}}constructor(a){super(a.Oa);this.Jf=a.service.Jf;this.Aa();(0,_.Fe)(()=>{this.Ba()})}Aa(){const a=document.getElementById(this.getRoot().Rc("aria-owns")||"");a&&(this.oa=new _.Lo(a))}Ba(){this.oa!==void 0&&!this.oa.isEmpty()&&this.oa&&!this.oa.closest(".TQc1id").isEmpty()&&_.PRb(this.Jf,this.oa,this.getRoot())}Ca(){if(this.oa!==void 0&&!this.oa.isEmpty()&&(!this.oa||this.oa.closest(".TQc1id").isEmpty())){var a;(a=this.getRoot().next(".focusSentinel").first())==
+null||a.remove();var b;(b=this.getRoot().next(".focusSentinel").first())==null||b.remove();gis(this.oa.children().filter(".focusSentinel"));gis(this.oa.children().filter(".focusSentinel"))}}};_.his.prototype.$wa$jEKfHe=function(){return this.Ca};_.his.prototype.$wa$NYVLBc=function(){return this.Ba};_.his.prototype.$wa$F0OlHe=function(){return this.Aa};_.is(_.fis,_.his);
+_.u();
+}catch(e){_._DumpException(e)}
+})(this._s);
+// Google Inc.
