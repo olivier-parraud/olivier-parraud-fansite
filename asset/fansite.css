@@ -4,6 +4,11 @@
         Box-sizing: border-box;
     }
 
+    html,
+    body {
+        height: 100%;
+    }
+
     header {
         background-image: url(image/coeur\ motif.jpg);
         display: flex;
@@ -13,12 +18,25 @@
 
     }
 
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background-image: url(./image/gris2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    main {
+        flex: 1;
+    }
+
     footer {
         background-image: url(image/coeur\ motif.jpg);
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 150px;
+
     }
 
     footer>h2 {
@@ -29,7 +47,7 @@
 
 
     nav {
-        background-color: rgb(211, 203, 193);
+
         padding: 10px;
         font-size: 20px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -67,7 +85,7 @@
     hgroup {
         text-align: right;
         padding-right: 16px;
-        border-right: 10px solid #00c8d7;
+        border-right: 10px 
     }
 
     hgroup h1 {
@@ -103,6 +121,13 @@
 
     nav ul li {
         list-style-type: none;
+    }
+
+    main.box1-wiplash {
+        flex: 1 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        min-height: 0;
     }
 
     .zoom img:hover {
@@ -147,10 +172,6 @@
         border: 1rem solid;
     }
 
-    .section {
-        background-color: blueviolet;
-
-    }
 
     .cinema {
 
@@ -209,22 +230,23 @@
     }
 
     .box1-wiplash {
-        background-color: #00c8d7;
+       background-color: bisque;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        height: 600px;
+        min-height: 0;
 
 
     }
 
     .contenair1-wiplash {
-        background-color: #e90303;
+      
         display: grid;
         grid-template-areas:
-            "a a a"
+
             "b b c"
             "b b c";
         gap: 10px;
+        padding-right: 10px;
 
 
     }
@@ -240,39 +262,49 @@
     }
 
     .pack1 {
-        background-color: blue;
+       background-color: bisque;
         grid-area: a;
         font-size: xx-large;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
         text-align: center;
-
     }
 
+
+
+
     .pack2 {
-        background-color: blueviolet;
+       background-color: bisque;
         grid-area: b;
 
     }
 
     .pack3 {
-        background-color: coral;
+     background-color: bisque;
         grid-area: c;
         text-align: center;
         padding-right: 10px;
         padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        width: max-content;
+
 
     }
 
     .pack4 {
-        background-color: #e90303;
+       background-color: bisque;
         grid-area: d;
-        min-height: 450px;
+        min-height: 400px
+       
 
     }
 
 
     .pack5 {
-        background-color: blue;
+        background-color: bisque;
+        background-image: url(./image/orange.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         grid-area: e;
         padding-left: 30px;
 
@@ -297,3 +329,18 @@
         font-weight: 500;
         font-style: normal;
     }
+
+    .text {
+        font-family: "Lexend", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .encadre-img {
+        border: 5px solid #000000;
+        border-radius: 6px;
+        padding-top: 10px;
+        /* Optionnel : espace entre l'image et la bordure */
+    }
+    
