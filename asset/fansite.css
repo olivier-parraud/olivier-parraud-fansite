@@ -4,11 +4,7 @@
         Box-sizing: border-box;
     }
 
-    html,
-    body {
-        height: 100%;
-    }
-
+    
     header {
         background-image: url(image/coeur\ motif.jpg);
         display: flex;
@@ -27,10 +23,7 @@
         background-size: cover;
     }
 
-    main {
-        flex: 1;
-    }
-
+    
     footer {
         background-image: url(image/coeur\ motif.jpg);
         display: flex;
@@ -82,20 +75,6 @@
         margin-right: 20px;
     }
 
-    hgroup {
-        text-align: right;
-        padding-right: 16px;
-        border-right: 10px 
-    }
-
-    hgroup h1 {
-        margin-bottom: 0;
-    }
-
-    hgroup p {
-        margin: 0;
-        font-weight: bold;
-    }
 
     img {
         width: 100%;
@@ -123,7 +102,7 @@
         list-style-type: none;
     }
 
-    main.box1-wiplash {
+    main.box1 {
         flex: 1 0 auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -229,8 +208,8 @@
         text-align: center;
     }
 
-    .box1-wiplash {
-       background-color: bisque;
+    .box1 {
+        background-color: bisque;
         display: grid;
         grid-template-columns: 1fr 1fr;
         min-height: 0;
@@ -238,8 +217,8 @@
 
     }
 
-    .contenair1-wiplash {
-      
+    .contenair1 {
+
         display: grid;
         grid-template-areas:
 
@@ -251,7 +230,7 @@
 
     }
 
-    .contenair2-wiplash {
+    .contenair2 {
         background-color: bisque;
         display: grid;
         grid-template-areas:
@@ -259,10 +238,12 @@
             "e e e"
             "e e e";
         gap: 10px;
+        height: 100%;
+        min-height: 0;
     }
 
     .pack1 {
-       background-color: bisque;
+        background-color: bisque;
         grid-area: a;
         font-size: xx-large;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
@@ -273,13 +254,13 @@
 
 
     .pack2 {
-       background-color: bisque;
+        background-color: bisque;
         grid-area: b;
 
     }
 
     .pack3 {
-     background-color: bisque;
+        background-color: bisque;
         grid-area: c;
         text-align: center;
         padding-right: 10px;
@@ -292,10 +273,11 @@
     }
 
     .pack4 {
-       background-color: bisque;
+        background-color: bisque;
         grid-area: d;
-        min-height: 400px
-       
+       min-height: 0;
+        height: 100%;
+        width: 100%;
 
     }
 
@@ -343,4 +325,3 @@
         padding-top: 10px;
         /* Optionnel : espace entre l'image et la bordure */
     }
-    
