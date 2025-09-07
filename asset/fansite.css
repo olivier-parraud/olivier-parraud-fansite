@@ -4,6 +4,11 @@
         Box-sizing: border-box;
     }
 
+    html,
+    body {
+        height: 100%;
+    }
+
     header {
         background-image: url(image/coeur\ motif.jpg);
         display: flex;
@@ -11,6 +16,16 @@
         align-items: center;
         height: 150px;
 
+    }
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    html,
+    body {
+        height: 100%;
     }
 
     footer {
@@ -218,13 +233,14 @@
     }
 
     .contenair1-wiplash {
-        background-color: #e90303;
+        background-color: rgb(211, 203, 193);
         display: grid;
         grid-template-areas:
-            "a a a"
+
             "b b c"
             "b b c";
         gap: 10px;
+        padding-right: 10px;
 
 
     }
@@ -245,8 +261,10 @@
         font-size: xx-large;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
         text-align: center;
-
     }
+
+
+
 
     .pack2 {
         background-color: blueviolet;
@@ -255,16 +273,18 @@
     }
 
     .pack3 {
-        background-color: coral;
+        background-color: rgb(255, 255, 255);
         grid-area: c;
         text-align: center;
         padding-right: 10px;
         padding-left: 10px;
+        min-width: min-content;
+
 
     }
 
     .pack4 {
-        background-color: #e90303;
+        background-color: #ffffff;
         grid-area: d;
         min-height: 450px;
 
@@ -272,7 +292,10 @@
 
 
     .pack5 {
-        background-color: blue;
+        /* background-color: rgb(138, 138, 150); */
+        background-image: url(./image/orange.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         grid-area: e;
         padding-left: 30px;
 
@@ -296,4 +319,18 @@
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
+    }
+
+    .text {
+        font-family: "Lexend", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .encadre-img {
+        border: 4px solid #000;
+        border-radius: 8px;
+        padding: 4px;
+        /* Optionnel : espace entre l'image et la bordure */
     }
