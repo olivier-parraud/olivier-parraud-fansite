@@ -125,6 +125,13 @@
         min-height: 0;
     }
 
+    p {
+        font-family: "Lexend", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
     .zoom img:hover {
         width: 90%;
         cursor: pointer;
@@ -141,6 +148,9 @@
 
     }
 
+    .box3  { 
+         margin-top: auto;
+    }
     .box1>p {
 
         font-size: x-large;
@@ -283,17 +293,17 @@
         min-height: 0;
     }
 
-.sticky-img {
+    .sticky-img {
         position: sticky;
         top: 10px;
         align-self: start;
         border: 1rem solid;
         border-color: rgb(0, 0, 0);
-        
+
         /* Optionnel : espace entre l'image et la bordure */
     }
 
-    
+
 
     .pack2 {
 
@@ -315,8 +325,8 @@
         padding-top: 10px;
         width: max-content;
         align-self: self-start;
-        
-        
+
+
 
 
     }
@@ -384,14 +394,11 @@
         /* Optionnel : espace entre l'image et la bordure */
     }
 
-    .encadre-img2 {
-    
-        background-color: bisque;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        border: 2rem solid;
-        border-color: rgb(0, 0, 0);
-        margin: 0;
+    .real {
+
+        font-family: "Story Script", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
+
+    
