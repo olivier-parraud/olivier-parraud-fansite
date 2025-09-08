@@ -308,6 +308,9 @@
         padding-bottom: 10px;
         padding-top: 10px;
         width: max-content;
+        align-self: self-start;
+        
+        
 
 
     }
