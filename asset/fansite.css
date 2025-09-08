@@ -195,6 +195,12 @@
     .cinema {
 
         height: 600px;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 1rem solid;
+        border-color: rgb(0, 0, 0);
+        background-color: bisque;
 
     }
 
