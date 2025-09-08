@@ -415,3 +415,14 @@
             font-weight: 400;
             font-style: normal;
         }
+
+@media (width<=500px) {
+    .contenair-text-nav {
+        flex-direction: column;
+        text-align: center ;
+        gap: 20px;
+    }
+    body {     
+        width: 500px;
+    }
+}
