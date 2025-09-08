@@ -1,404 +1,415 @@
-    * {
-        Margin: 0;
-        Padding: 0;
-        Box-sizing: border-box;
-    }
-
-
-    header {
-        background-image: url(image/coeur\ motif.jpg);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 150px;
-
-    }
-
-    body {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        background-image: url(./image/jaune2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-
-    }
-
-
-    footer {
-        background-image: url(image/coeur\ motif.jpg);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 150px;
-
-    }
-
-    footer>h2 {
-        font-size: xx-large;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-
-
-
-    nav {
-        background-image: url(./image/gris2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 10px;
-        font-size: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-weight: 600;
-    }
-
-    ul {
-        display: flex;
-        justify-content: space-around;
-
-    }
-
-    li {
-        list-style: none;
-        padding: 10px;
-    }
-
-    a {
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-    }
-
-    a:hover {
-        color: red;
-    }
-
-    h1 {
-        font-size: 40px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-weight: 700;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-
-    img {
-        width: 100%;
-        height: auto;
-    }
-
-    li {
-        list-style-type: square;
-    }
-
-    article.pack5 ul {
-        display: block;
-        text-align: left;
-        padding-left: 2em;
-        list-style-position: inside;
-    }
-
-    article.pack5 li {
-        padding: 2px 0;
-        margin: 0, 2em 0;
-        font-size: 1em;
-    }
-
-    nav ul li {
-        list-style-type: none;
-    }
-
-    article.pack5 {
-
-        background-color: bisque;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        border: 1rem solid;
-        border-color: rgb(0, 0, 0);
-        margin: 0;
-    }
-
-    main.box1 {
-        flex: 1 0 auto;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        min-height: 0;
-    }
-
-    p {
-        font-family: "Lexend", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    .zoom img:hover {
-        width: 90%;
-        cursor: pointer;
-    }
-
-    .box1 {
-
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        min-height: 0;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .box3  { 
-         margin-top: auto;
-    }
-    .box1>p {
-
-        font-size: x-large;
-        letter-spacing: 1px;
-        color: rgb(0, 0, 0);
-        padding-top: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 3rem;
-        border: 1rem solid;
-        border-color: rgb(0, 0, 0)
-    }
-
-    .box2>p {
-
-        font-size: x-large;
-        letter-spacing: 1px;
-        color: rgb(0, 0, 0);
-        padding-top: 28px;
-        padding-right: 1rem;
-        padding-left: 1rem;
-        padding-bottom: 4rem;
-        border: 1rem solid;
-    }
-
-    .box3>p {
-
-        font-size: x-large;
-        letter-spacing: 1px;
-        color: rgb(0, 0, 0);
-        padding-top: 1rem;
-        padding-right: 1rem;
-        padding-left: 1rem;
-        padding-bottom: 3rem;
-        border: 1rem solid;
-    }
-
-    .box1>p,
-    .box2>p,
-    .box3>p {
-        background-color: bisque;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        border: 1rem solid;
-        border-color: rgb(0, 0, 0);
-        margin: 0;
-    }
-
-
-    .cinema {
-
-        height: 600px;
-        width: 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border: 1rem solid;
-        border-color: rgb(0, 0, 0);
-        background-color: bisque;
-
-    }
-
-    .contenair-cinema {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        background-image: url(image/jaune2.jpg);
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-        gap: 200px;
-
-    }
-
-    .contenair-cinema .box1,
-    .contenair-cinema .box2,
-    .contenair-cinema .box3>h3 {
-        text-align: center;
-    }
-
-    .contenair-text {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: x-large;
-
-
-    }
-
-    .media {
-        color: rgb(0, 0, 0);
-        font-size: xx-large;
-
-    }
-
-    .contenair-text-nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        gap: 200px;
-        font-size: 40px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-weight: 700;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .contenair-main {
-        display: flex;
-        justify-content: flex-start;
-        text-align: center;
-    }
-
-
-
-    .contenair1 {
-
-        display: grid;
-        grid-template-areas:
-
-            "b b c"
-            "b b c";
-        gap: 10px;
-        padding-right: 10px;
-
-
-    }
-
-    .contenair2 {
-
-        display: grid;
-        grid-template-areas:
-            "d d d"
-            "e e e"
-            "e e e";
-        gap: 10px;
-        height: 100%;
-        min-height: 0;
-    }
-
-    .sticky-img {
-        position: sticky;
-        top: 10px;
-        align-self: start;
-        border: 1rem solid;
-        border-color: rgb(0, 0, 0);
-
-        /* Optionnel : espace entre l'image et la bordure */
-    }
-
-
-
-    .pack2 {
-
-        grid-area: b;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .pack3 {
-        background-color: bisque;
-        grid-area: c;
-        text-align: center;
-        padding-right: 10px;
-        padding-left: 10px;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        width: max-content;
-        align-self: self-start;
-
-
-
-
-    }
-
-    .pack3 img {
-        max-width: 120px;
-        height: auto;
-        display: block;
-        margin: 8px auto;
-    }
-
-    .pack4 {
-        background-color: bisque;
-        grid-area: d;
-        min-height: 0;
-        height: 100%;
-        width: 100%;
-
-    }
-
-
-    .pack5 {
-        background-color: bisque;
-        grid-area: e;
-        padding-left: 30px;
-
-    }
-
-    .pack5>h2 {
-        text-align: center;
-    }
-
-
-    .titre {
-
-        font-family: "Oswald", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    .sous-titre {
-        font-family: "Oswald", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-    }
-
-    .text {
-        font-family: "Lexend", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    .encadre-img {
-        background-color: bisque;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        border: 1rem solid;
-        border-color: rgb(0, 0, 0);
-        margin: 0;
-        /* Optionnel : espace entre l'image et la bordure */
-    }
-
-    .real {
-
-        font-family: "Story Script", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    
+        * {
+            Margin: 0;
+            Padding: 0;
+            Box-sizing: border-box;
+        }
+
+
+        header {
+            background-image: url(image/coeur\ motif.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-image: url(./image/jaune2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+
+        footer {
+            background-image: url(image/coeur\ motif.jpg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+
+        }
+
+        footer>h2 {
+            font-size: xx-large;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+
+
+        nav {
+            background-image: url(./image/gris2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 10px;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 600;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        li {
+            list-style: none;
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 700;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        li {
+            list-style-type: square;
+        }
+
+        article.pack5 ul {
+            display: block;
+            text-align: left;
+            padding-left: 2em;
+            list-style-position: inside;
+        }
+
+        article.pack5 li {
+            padding: 2px 0;
+            margin: 0, 2em 0;
+            font-size: 1em;
+        }
+
+        nav ul li {
+            list-style-type: none;
+        }
+
+        article.pack5 {
+
+            background-color: bisque;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            border: 1rem solid;
+            border-color: rgb(0, 0, 0);
+            margin: 0;
+        }
+
+        main.box1 {
+            flex: 1 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            min-height: 0;
+        }
+
+        p {
+            font-family: "Lexend", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .zoom img:hover {
+            width: 90%;
+            cursor: pointer;
+        }
+
+        .box1 {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            min-height: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .box3 {
+            margin-top: auto;
+        }
+
+        .box1>p {
+
+            font-size: x-large;
+            letter-spacing: 1px;
+            color: rgb(0, 0, 0);
+            padding-top: 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-bottom: 3rem;
+            border: 1rem solid;
+            border-color: rgb(0, 0, 0)
+        }
+
+        .box2>p {
+
+            font-size: x-large;
+            letter-spacing: 1px;
+            color: rgb(0, 0, 0);
+            padding-top: 28px;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            padding-bottom: 4rem;
+            border: 1rem solid;
+        }
+
+        .box3>p {
+
+            font-size: x-large;
+            letter-spacing: 1px;
+            color: rgb(0, 0, 0);
+            padding-top: 1rem;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            padding-bottom: 3rem;
+            border: 1rem solid;
+        }
+
+        .box1>p,
+        .box2>p,
+        .box3>p {
+            background-color: bisque;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            border: 1rem solid;
+            border-color: rgb(0, 0, 0);
+            margin: 0;
+        }
+
+
+        .cinema {
+
+            height: 600px;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 1rem solid;
+            border-color: rgb(0, 0, 0);
+            background-color: bisque;
+
+        }
+
+        .contenair-cinema {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            gap: 200px;
+
+
+        }
+
+        .contenair-cinema .box1,
+        .contenair-cinema .box2,
+        .contenair-cinema .box3>h3 {
+            text-align: center;
+        }
+
+        .contenair-cinema>.box1,
+        .contenair-cinema>.box2,
+        .contenair-cinema>.box3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .contenair-text {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: x-large;
+
+
+        }
+
+        .media {
+            color: rgb(0, 0, 0);
+            font-size: xx-large;
+
+        }
+
+        .contenair-text-nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 200px;
+            font-size: 40px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 700;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .contenair-main {
+            display: flex;
+            justify-content: flex-start;
+            text-align: center;
+        }
+
+
+
+        .contenair1 {
+
+            display: grid;
+            grid-template-areas:
+
+                "b b c"
+                "b b c";
+            gap: 10px;
+            padding-right: 10px;
+
+
+        }
+
+        .contenair2 {
+
+            display: grid;
+            grid-template-areas:
+                "d d d"
+                "e e e"
+                "e e e";
+            gap: 10px;
+            height: 100%;
+            min-height: 0;
+            background-color: aqua;
+        }
+
+        .sticky-img {
+            position: sticky;
+            top: 10px;
+            align-self: start;
+            border: 1rem solid;
+            border-color: rgb(0, 0, 0);
+
+            /* Optionnel : espace entre l'image et la bordure */
+        }
+
+
+
+        .pack2 {
+
+            grid-area: b;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .pack3 {
+            background-color: bisque;
+            grid-area: c;
+            text-align: center;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            width: max-content;
+            align-self: self-start;
+
+
+
+
+        }
+
+        .pack3 img {
+            max-width: 120px;
+            height: auto;
+            display: block;
+            margin: 8px auto;
+        }
+
+        .pack4 {
+            background-color: bisque;
+            grid-area: d;
+            min-height: 0;
+            height: 100%;
+            width: 100%;
+
+        }
+
+
+        .pack5 {
+            background-color: bisque;
+            grid-area: e;
+            padding-left: 30px;
+
+        }
+
+        .pack5>h2 {
+            text-align: center;
+        }
+
+
+        .titre {
+
+            font-family: "Oswald", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .sous-titre {
+            font-family: "Oswald", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        .text {
+            font-family: "Lexend", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .encadre-img {
+            background-color: bisque;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            border: 1rem solid;
+            border-color: rgb(0, 0, 0);
+            margin: 0;
+            /* Optionnel : espace entre l'image et la bordure */
+        }
+
+        .real {
+
+            font-family: "Story Script", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
