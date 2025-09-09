@@ -458,7 +458,7 @@
             /* Optionnel : espace entre l'image et la bordure */
         }
 
-        .encrad { 
+        .encrad {
             border: 10px solid;
             border-color: rgb(0, 0, 0);
             background: #FFEFBA;
@@ -467,8 +467,10 @@
             /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to right, #FFFFFF, #FFEFBA);
             /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-           
+
+
         }
+
         .real {
 
             font-family: "Story Script", sans-serif;
