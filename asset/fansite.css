@@ -18,9 +18,16 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            background-image: url(./image/jaune2.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
+            background: #F2994A;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #F2C94C, #F2994A);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
 
         }
 
@@ -42,9 +49,14 @@
 
 
         nav {
-            background-image: url(./image/gris2.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
+            background: #F2994A;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #F2C94C, #F2994A);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
             padding: 10px;
             font-size: 20px;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -108,7 +120,13 @@
 
         article.pack5 {
 
-            background-color: bisque;
+            background: #FFEFBA;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
             flex: 1;
             display: flex;
             flex-direction: column;
@@ -132,7 +150,7 @@
             font-style: normal;
         }
 
-        
+
 
 
         .box1 {
@@ -191,7 +209,13 @@
         .box1>p,
         .box2>p,
         .box3>p {
-            background-color: bisque;
+            background: #FFEFBA;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
             flex: 1;
             display: flex;
             flex-direction: column;
@@ -227,7 +251,8 @@
 
         .contenair-cinema img:hover {
             cursor: pointer;
-            transform: scale(1.1);}
+            transform: scale(1.1);
+        }
 
         .contenair-cinema .box1,
         .contenair-cinema .box2,
@@ -331,7 +356,13 @@
         }
 
         .pack3 {
-            background-color: bisque;
+            background: #FFEFBA;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
             grid-area: c;
             text-align: center;
             padding-right: 10px;
@@ -354,7 +385,13 @@
         }
 
         .pack4 {
-            background-color: bisque;
+            background: #FFEFBA;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
             grid-area: d;
             min-height: 0;
             height: 100%;
@@ -364,7 +401,13 @@
 
 
         .pack5 {
-            background-color: bisque;
+            background: #FFEFBA;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
             grid-area: e;
             padding-left: 30px;
 
@@ -398,7 +441,13 @@
         }
 
         .encadre-img {
-            background-color: bisque;
+            background: #FFEFBA;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
             flex: 1;
             display: flex;
             flex-direction: column;
@@ -409,6 +458,17 @@
             /* Optionnel : espace entre l'image et la bordure */
         }
 
+        .encrad { 
+            border: 10px solid;
+            border-color: rgb(0, 0, 0);
+            background: #FFEFBA;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+           
+        }
         .real {
 
             font-family: "Story Script", sans-serif;
@@ -416,13 +476,14 @@
             font-style: normal;
         }
 
-@media (width<=500px) {
-    .contenair-text-nav {
-        flex-direction: column;
-        text-align: center ;
-        gap: 20px;
-    }
-    body {     
-        width: 500px;
-    }
-}
+        @media (width<=500px) {
+            .contenair-text-nav {
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
+
+            body {
+                width: 500px;
+            }
+        }
